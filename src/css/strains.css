@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;  
+}
+.card-body{
+    background-color: rgb(252, 252, 252);
+    border-radius: 7px;
+    text-align: center;
+    padding: 0px;
+}
+.jumbo{
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1.42857;
+    color: #333;
+    box-sizing: border-box;
+    height: 420px;
+    border-top: 1px solid #e5e5e5;
+    background: linear-gradient(rgba(0,0,0,.05),rgba(0,0,0,.3),rgba(0,0,0,.5),rgba(0,0,0,.9)),url(http://www.cannabisreports.com/images/profile/8/200_85f8cbcb628db9d0a8b25b14b6b0df3e9d97bd58.jpg) center fixed;
+}
+.card-image{
+    border-radius: 100%;
+    max-width: 300px;
+    max-height: 310px;
+    position: relative;
+    bottom: 100px;
+}
+.card-title{
+    
+    font-size: 40px;
+    color: rgb(44, 109, 82);
+    border-radius: 5px;
+}
+.align-left{
+    text-align: left;
+}
+.text-inf{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+.text-rounded{
+    background: rgb(0, 128, 64);
+    border-radius: 20px;
+    margin: auto;
+    width: 10%;
+    color: white;
+    font-weight: 700;
+    padding: 15px;
+    transition: all 0.5s ease-in;
+}
+.text-rounded:hover{
+    color: black;
+    background: white;
+}

@@ -1,0 +1,157 @@
+body{
+  background: rgb(43, 43, 43);
+  height: 100%;
+}
+.content-loading{
+  margin: 170px;
+  width: 70%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+.weed-icon{
+  width: 140px !important;
+  height: 120px !important;
+  margin: auto;
+}
+.rotate-animation{
+  animation: rotate-anim 2s infinite ease-in;
+}
+
+@keyframes rotate-anim{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.form-body{
+  padding: 15px;
+  align-items: center;
+  position: relative;
+  top: 65px;
+  left: 27px;
+}
+.form-body label input{
+  width: 800px;
+  font-size: 20px;
+  line-height: 0.1px;
+  font-family: 'Teko', sans-serif;
+  padding: 15px;
+  background-color: rgba(128, 128, 128, 0.575);
+  border-radius: 25px 0px 0px 25px;
+  cursor: text;  
+  border: none;
+  transition: ease-in-out, background-color .35s ease-in-out;
+}
+.form-body label input:hover{
+  border: none;
+  background-color: rgba(0, 0, 0, 0.301);
+  color: none;
+}
+.form-body label input:focus{
+  border: 0px;
+  outline: none !important;
+}
+.form-error{
+  background-color: rgba(109, 49, 49, 0.808) !important;
+  color: white;
+}
+.form-yes{
+  background-color: rgba(90, 119, 31, 0.705) !important;
+}
+.ul-card{
+  list-style: none;
+  padding: 50px;
+  display: none;
+}
+.active{
+  display: block !important;
+}
+.li-card{
+  background: rgba(205, 207, 204, 0.651);
+  font-size: 17px;
+  padding: 10px;
+  transition: all 1s ease-out;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  border: solid rgb(207, 59, 59) 10px 10px 10px 10px;
+
+}
+.li-card-Link{
+  text-decoration: none;
+  color:rgb(54, 54, 54);
+  background: none;
+  border: none;
+}
+
+#form-search{ 
+  width: 70px;
+  height: 60px;
+  background: rgb(27, 27, 27);
+  color: white;
+  border: none;
+  border-radius: 1px;
+  transition: ease-in-out, background-color .75s ease-in-out;
+  cursor: pointer;
+  transition: all 1s ease-in;
+  border-radius: 0px 25px 25px 0px;
+}
+#form-search:hover{
+  color:black;
+  background: white;
+  transform: scale(1.2);
+}
+#form-search:focus{
+  outline: none !important;
+}
+
+.react-fetch-progress-bar {
+  background: rgb(91, 161, 109) !important;
+  height: 10px;
+  max-width: 97%;
+}
+.footer{
+  position: relative;
+  top: 20vh;
+  text-align: center;
+}
+.footer a{
+  text-decoration: none;
+
+}
+.footer a ion-icon {
+  width: 50px;
+  height: 50px;
+  color: white;
+  transition: all 0.5s ease-in;
+  margin-left: 30px;
+}
+.footer a ion-icon:hover{
+  background: rgb(91, 161, 109);
+  border-radius: 50%;
+}
+@media screen and (min-width: 100px) and (max-width: 700px)
+{
+  .content-loading{
+    margin: 0px;
+    width: 100% !important;
+  }
+  .form-body label input{
+    width: 100%;
+    left: 0px;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 1200px)
+{
+  .content-loading{
+    margin: 0px;
+    width: 100% !important;
+  }
+  .form-body label input{
+    width: 800px;
+    left: 0px;
+  }
+}
